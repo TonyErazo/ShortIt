@@ -1,0 +1,250 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.page_main__GlU4n {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.page_body__pK_rb {
+  background: linear-gradient(to top, #fc9323 0%, #fabd54 100%);
+  font-family: "Poppins", sans-serif;
+}
+
+.page_form__Ou5d6 {
+  position: relative;
+  translate: 0rem 20vh;
+  padding-top: 2rem;
+  padding-bottom: 1.2rem;
+  width: 60vw;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  opacity: 0.92;
+  border-radius: 10px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+}
+
+.page_form__Ou5d6 button,
+.page_form__Ou5d6 button:before {
+  color: rgb(155, 154, 154);
+}
+
+.page_form__Ou5d6 label,
+.page_form__Ou5d6 label:before {
+  color: rgb(155, 154, 154) !important;
+}
+
+.page_button__vnlhW {
+  -webkit-appearance: button;
+     -moz-appearance: button;
+          appearance: button;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #f35314;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff !important;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+.page_button__vnlhW:disabled {
+  cursor: default;
+}
+
+.page_button__vnlhW:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(208, 70, 7, 0.3) 0 0 0 4px;
+}
+
+.page_form__Ou5d6 span {
+  overflow: hidden;
+  padding-right: 10px;
+}
+
+.page_link__36MaQ {
+  color: gray !important;
+}
+
+.page_form__Ou5d6 input,
+.page_form__Ou5d6 input[type="radio"],
+.page_form__Ou5d6 input[type="checkbox"],
+.page_form__Ou5d6 select option,
+.page_form__Ou5d6 select {
+  width: 60%;
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+  line-height: 1.4;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  color: #f35314;
+  border-radius: 3px;
+  transition: 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/navbar.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+
+
+.navbar_nav__4_N1f {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #ef80009d;
+}
+
+.navbar_nav__4_N1f p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.navbar_logo__bP_zn {
+  font-size: larger;
+}
+
+.navbar_list__x7HCq {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  z-index: 1200;
+}
+
+.navbar_list__x7HCq li {
+  font-size: large;
+  display: inline-block;
+  list-style-type: none;
+  color: white;
+  display: block;
+  line-height: 3em;
+  padding: 1em 3em;
+}
+
+.navbar_list__x7HCq li:first-child {
+  margin-right: auto;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/footer.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.footer_footer__KDdEv {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  top:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom, rgba(243, 106, 62, 1) 0%, rgb(217, 69, 20) 100%);
+}
+
+.footer_footer__KDdEv p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.footer_wave__Y7UcS {
+  position: relative;
+  width: 100%;
+  height:20vw;
+  top:5px;
+  left:0;
+  background: url(/_next/static/media/wave.fc058b13.svg) repeat-x;
+}
+
+.footer_list__DCTaL {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  z-index: 1200;
+  border-bottom: 1px solid white;
+}
+
+.footer_list__DCTaL li {
+  font-size: large;
+  display: inline-block;
+  list-style-type: none;
+  color: white;
+  display: block;
+  line-height: 3em;
+  padding: 1em 3em;
+}
+
+.footer_list__DCTaL li:first-child {
+  margin-right: auto;
+}
+
+.footer_footerWidgetHeading__5Ctic h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600; 
+  margin-top: 2rem;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.footer_footerWidgetHeading__5Ctic h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ffbc14;
+}
+
+.footer_useful-links__r3HP2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer_footerWidget___L7bt ul li {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer_footerWidget___L7bt ul li a:hover{
+  color: #ffbc14;
+}
+.footer_footerWidget___L7bt ul li a {
+  color: #fff;
+  text-transform: capitalize;
+}

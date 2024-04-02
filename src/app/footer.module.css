@@ -1,0 +1,86 @@
+.footer {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  top:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom, rgba(243, 106, 62, 1) 0%, rgb(217, 69, 20) 100%);
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: relative;
+  width: 100%;
+  height:20vw;
+  top:5px;
+  left:0;
+  background: url('./wave.svg') repeat-x;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  z-index: 1200;
+  border-bottom: 1px solid white;
+}
+
+.list li {
+  font-size: large;
+  display: inline-block;
+  list-style-type: none;
+  color: white;
+  display: block;
+  line-height: 3em;
+  padding: 1em 3em;
+}
+
+.list li:first-child {
+  margin-right: auto;
+}
+
+.footerWidgetHeading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600; 
+  margin-top: 2rem;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.footerWidgetHeading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ffbc14;
+}
+
+.useful-links {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footerWidget ul li {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footerWidget ul li a:hover{
+  color: #ffbc14;
+}
+.footerWidget ul li a {
+  color: #fff;
+  text-transform: capitalize;
+}

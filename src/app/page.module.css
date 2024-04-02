@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.body {
+  background: linear-gradient(to top, #fc9323 0%, #fabd54 100%);
+  font-family: "Poppins", sans-serif;
+}
+
+.form {
+  position: relative;
+  translate: 0rem 20vh;
+  padding-top: 2rem;
+  padding-bottom: 1.2rem;
+  width: 60vw;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  opacity: 0.92;
+  border-radius: 10px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+}
+
+.form button,
+.form button:before {
+  color: rgb(155, 154, 154);
+}
+
+.form label,
+.form label:before {
+  color: rgb(155, 154, 154) !important;
+}
+
+.button {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #f35314;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff !important;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+.button:disabled {
+  cursor: default;
+}
+
+.button:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(208, 70, 7, 0.3) 0 0 0 4px;
+}
+
+.form span {
+  overflow: hidden;
+  padding-right: 10px;
+}
+
+.link {
+  color: gray !important;
+}
+
+.form input,
+.form input[type="radio"],
+.form input[type="checkbox"],
+.form select option,
+.form select {
+  width: 60%;
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+  line-height: 1.4;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  color: #f35314;
+  border-radius: 3px;
+  -webkit-transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+
